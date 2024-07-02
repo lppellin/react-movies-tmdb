@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <h2>Movies</h2>
+        <h2>app</h2>
       </div>
 
     </>
