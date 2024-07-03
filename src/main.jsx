@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
+import './main.css'
 import AppRoutes from './routes.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -8,3 +8,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <AppRoutes />
   </React.StrictMode>
 )
+
