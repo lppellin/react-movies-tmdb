@@ -1,14 +1,18 @@
 import React from 'react'
-import { Link, Outlet } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import { BiSolidMovie, BiSearchAlt } from 'react-icons/bi'
 
 const Navbar = () => {
     return (
-        <div>
-            <Link to="/"><h1>MovieDB</h1></Link>
-            <Link to="/search">Search</Link>
-            <Link to="/movie">Movie</Link>
-            <Outlet />
-        </div>
+        <nav id='navbar'>
+            <h2>
+                <Link to="/"> <BiSolidMovie /> MovieDB</Link>
+            </h2>
+            <form>
+                <input type="text" placeholder="Buscar" />
+                <button type="submit"> <BiSearchAlt /> </button>
+            </form>
+        </nav>
     )
 }
 
