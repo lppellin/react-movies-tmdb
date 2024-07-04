@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #121212;
+    background-color: var(--primary-grey);
 }
 
 #navbar h2 a {

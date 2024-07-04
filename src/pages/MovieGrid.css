@@ -25,7 +25,7 @@
     justify-content: space-between;
     padding: 1rem;
     border-radius: 10px;
-    background-color: #121212;
+    background-color: var(--primary-grey);
 }
 
 .movies-container div img {
