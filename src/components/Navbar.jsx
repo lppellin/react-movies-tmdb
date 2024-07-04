@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { BiSolidMovie, BiSearchAlt } from 'react-icons/bi'
+import './Navbar.css'
 
 const Navbar = () => {
     return (
