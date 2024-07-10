@@ -1,8 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import MovieCard from '../components/MovieCard'
-import { Outlet } from 'react-router-dom'
-
 import './MovieGrid.css'
 
 const moviesURL = import.meta.env.VITE_API
@@ -34,5 +32,4 @@ const Home = () => {
         </div>
     )
 }
-
 export default Home

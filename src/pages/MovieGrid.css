@@ -3,7 +3,7 @@
 }
 
 .title .query-text {
-    color: var(--hover-yellow);
+    color: var(--primary-yellow);
 }
 
 .movies-container {
