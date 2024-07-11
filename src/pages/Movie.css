@@ -2,8 +2,8 @@
     color: #fff;
     display: grid;
     flex-direction: column;
-    max-width: 600px;
-    margin: 2rem auto;
+    max-width: 100%;
+    margin: 1rem;
 }
 
 .movie-page svg {
@@ -13,6 +13,11 @@
 
 .movie-page .movie-card {
     text-align: center;
+}
+
+.movie-page .movie-card img {
+    max-width: 100%;
+    border-radius: 2%;
 }
 
 .movie-page .movie-card img,
@@ -51,4 +56,36 @@
 
 .description p {
     line-height: 1.4rem;
+}
+
+/* tablet */
+@media (min-width: 600px) {
+    .movie-page {
+        max-width: 600px;
+        margin: 2rem auto;
+    }
+
+    .movies-container {
+        max-width: 800px;
+        padding: 2rem;
+    }
+
+    .movies-container div {
+        width: 45%;
+        margin: 1rem auto;
+    }
+}
+
+/* desktop */
+@media (min-width: 900px) {
+    .movies-container {
+        max-width: 1200px;
+        padding: 2rem;
+
+    }
+
+    .movies-container div {
+        width: 30%;
+        margin: 2rem auto;
+    }
 }

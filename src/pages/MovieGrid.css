@@ -7,18 +7,17 @@
 }
 
 .movies-container {
-    /* formatar pra mobile */
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 2rem;
-    max-width: 1200px;
+    justify-content: center;
+    padding: 1rem;
+    max-width: 90%;
     margin: 0 auto;
 }
 
 .movies-container div {
-    width: 30%;
-    margin-bottom: 2.5rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
     color: white;
     display: flex;
     flex-direction: column;

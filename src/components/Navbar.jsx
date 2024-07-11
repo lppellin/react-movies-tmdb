@@ -23,8 +23,6 @@ const Navbar = () => {
         <nav id='navbar'>
             <h2>
                 <Link to="/"> <BiSolidMovie /> MovieDB</Link>
-            </h2>
-            <h2>
                 <Link to="/usermovies"> <></>Meus Filmes</Link>
             </h2>
             <form onSubmit={handleSubmit}>
