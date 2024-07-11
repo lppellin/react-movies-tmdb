@@ -10,6 +10,8 @@
     display: flex;
     align-items: center;
     gap: .5rem;
+    font-size: 16px;
+    padding: 2px;
 }
 
 #navbar form {
