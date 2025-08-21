@@ -2,6 +2,8 @@
 
 Este é um projeto de catálogo de filmes desenvolvido utilizando React, que consome a API do The Movie Database (TMDB). O objetivo do projeto é permitir que os usuários naveguem por filmes populares, vejam detalhes específicos e busquem por filmes de interesse.
 
+Link para testar: https://react-movies-tmdb-lpp.vercel.app/
+
 ## Funcionalidades
 
 - Listagem de filmes populares
